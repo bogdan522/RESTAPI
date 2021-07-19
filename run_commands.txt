@@ -1,5 +1,5 @@
 dotnet dev-certs https --trust 
 docker run -d --rm --name mongo -p 27017:27017 -v mongodbdata:/data/db mongo
-docker run -d --rm --name mongo -p 27017:27017 -v mongodbdata:/data/db -e MONGO_INITDB_ROOT_USERNAME= -e MONGO_INITDB_ROOT_PASSWORD=
+docker run -d --rm --name mongo -p 27017:27017 -v mongodbdata:/data/db -e MONGO_INITDB_ROOT_USERNAME= -e MONGO_INITDB_ROOT_PASSWORD= mongo
 dotnet user-secrets init
 dotnet user-secrets set MongoDbSettings:Password ""
