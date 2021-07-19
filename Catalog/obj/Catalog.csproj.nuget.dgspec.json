@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Catalog\\Catalog.csproj": {}
+    "E:\\REST_API\\RESTAPI\\Catalog\\Catalog.csproj": {}
   },
   "projects": {
-    "E:\\Catalog\\Catalog.csproj": {
+    "E:\\REST_API\\RESTAPI\\Catalog\\Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Catalog\\Catalog.csproj",
+        "projectUniqueName": "E:\\REST_API\\RESTAPI\\Catalog\\Catalog.csproj",
         "projectName": "Catalog",
-        "projectPath": "E:\\Catalog\\Catalog.csproj",
+        "projectPath": "E:\\REST_API\\RESTAPI\\Catalog\\Catalog.csproj",
         "packagesPath": "C:\\Users\\petru\\.nuget\\packages\\",
-        "outputPath": "E:\\Catalog\\obj\\",
+        "outputPath": "E:\\REST_API\\RESTAPI\\Catalog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\petru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\petru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +42,7 @@
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.12.4, )"
+              "version": "[2.13.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
