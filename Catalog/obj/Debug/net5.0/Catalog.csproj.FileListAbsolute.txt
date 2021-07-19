@@ -80,3 +80,6 @@ E:\REST_API\RESTAPI\Catalog\obj\Debug\net5.0\scopedcss\bundle\Catalog.styles.css
 E:\REST_API\RESTAPI\Catalog\obj\Debug\net5.0\Catalog.RazorTargetAssemblyInfo.cache
 E:\REST_API\RESTAPI\Catalog\obj\Debug\net5.0\Catalog.csproj.CopyComplete
 E:\REST_API\RESTAPI\Catalog\obj\Debug\net5.0\Catalog.genruntimeconfig.cache
+E:\REST_API\RESTAPI\Catalog\bin\Debug\net5.0\HealthChecks.MongoDb.dll
+E:\REST_API\RESTAPI\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+E:\REST_API\RESTAPI\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
